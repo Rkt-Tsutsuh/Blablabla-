@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blablabla</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="countdown" class="countdown"></div>
+        <div id="welcomeMessage" class="welcome-message" style="display: none;">
+            <h1>Bienvenue Anay!</h1>
+            <p>Es-tu prêt pour un petit défi?🐷</p>
+            <button id="startButton" onclick="startQuiz()">Commencer</button>
+        </div>
+        <div id="questionSection" class="question-section" style="display:none;">
+            <p id="question"></p>
+            <div id="choices"></div>
+            <div id="feedback"></div>
+        </div>
+        <div id="finalMessage" style="display:none;"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
